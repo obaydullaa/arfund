@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+.icon-class-success {
+    position: relative;
+}
+
+.icon-class-success::after{
+    content: "\f058";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--success));
+}
+
+.icon-class-success::before{
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--success));
+    display: flex;
+}
+
+.icon-class-error {
+    position: relative;
+}
+
+.icon-class-error::after{
+    content: "\f057";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--danger));
+}
+
+.icon-class-error::before{
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--danger));
+    display: flex;
+}
+
+.icon-class-warning {
+    position: relative;
+}
+.icon-class-warning::after {
+    content: "\f06a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--warning));
+}
+.icon-class-warning::before {
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--warning));
+    display: flex;
+}
+
+.icon-class-info {
+    position: relative;
+}
+.icon-class-info::after {
+    content: "\f059";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-style: normal;
+    color: hsl(var(--info));
+}
+.icon-class-info::before {
+    content: "";
+    position: relative;
+    top: -13px;
+    left: -15px;
+    width: 6px;
+    height: 51px;
+    background: hsl(var(--info));
+    display: flex;
+}
+
+.iziToast>.iziToast-body {
+    padding: 0 24px 0 10px;
+}
+
+.iziToast>.iziToast-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    padding: 0;
+    opacity: .6;
+    width: 60px;
+    height: 100%;
+    background: none;
+    color: hsl(var(--black));
+    background-size: 8px;
+    cursor: pointer;
+    outline: 0;
+}
+.iziToast>.iziToast-close::before {
+    position: relative;
+    content: 'Close';
+    font-weight: 600;
+    border-left: 1px solid hsl(var(--black));
+    padding: 0px 8px;
+
+}

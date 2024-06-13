@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArFund - Crowdfunding Platform</title>
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/favicon.png" sizes="16x16" type="image/png" />
+    <!-- bootstrap 5  -->
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css" />
+    <!-- fontawesome 5  -->
+    <link rel="stylesheet" href="assets/css/lib/font-awesome.css" />
+    <!-- lineawesome font -->
+    <link rel="stylesheet" href="assets/css/lib/line-awesome.css" />
+    <!-- Simplebar Js  -->
+    <link rel="stylesheet" href="assets/css/lib/simplebar.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body >
+
+
+    <header class="mobile-header">
+        <div class="container">
+            <div class="row g-4 align-items-center justify-content-between">
+                <div class="col-6">
+                    <!-- Logo  -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="images" class="img-fluid logo__is" />
+                    </a>
+                    <!-- Logo End -->
+                </div>
+                <div class="col-6">
+                    <div class="text-end">
+                        <button type="button" class="btn btn--sqr sidebar-toggler">
+                            <i class="fas fa-bars"></i>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="doc">
+        <div class="doc__sidebar">
+            <div class="doc-logo">
+                <!-- Logo  -->
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" alt="images" class="img-fluid logo__is" />
+                </a>
+                <!-- Logo End -->
+            </div>
+            <nav class="doc-nav" data-simplebar>
+                <ul class="list doc-nav__list">
+                    <li>
+                        <a href="#introduction" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-layer-group"></i>
+                                <span class="d-block">introduction</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#server-req" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-server"></i> <span
+                                    class="d-block">server requirements</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#server-faq" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i
+                                    class="fa-solid fa-clipboard-question"></i> <span class="d-block">server
+                                    FAQ</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#installation" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-gear"></i> <span
+                                    class="d-block">how to install </span></span> </a>
+                    </li>
+
+                    <li>
+                        <a href="#folder" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-folder-tree"></i>
+                                <span class="d-block">
+                                    folder structure
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#admin-dashboard" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-brands fa-black-tie"></i>
+                                <span class="d-block">
+                                    admin dahshboard
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#setting" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-gears"></i>
+                                <span class="d-block">
+                                    Site setting
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#system" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i
+                                    class="fa-solid fa-screwdriver-wrench"></i>
+                                <span class="d-block">
+                                    System Configuration
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#extensions" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-plug"></i>
+                                <span class="d-block">
+                                    Plugins
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#seo" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-brands fa-searchengin"></i>
+                                <span class="d-block">
+                                    SEO Configuration
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#language" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-language"></i>
+                                <span class="d-block">
+                                    Language Setting
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#user-dashboard" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-user-tie"></i>
+                                <span class="d-block">
+                                    User dashboard
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#support" class="doc-nav__link nav-link">
+                            <span class="list list--row align-items-center"><i class="fa-solid fa-headset"></i>
+                                <span class="d-block">
+                                    support
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                <p class="m-0 text--dark px-3 text-center">Copyright &copy; <a class="text--base"
+                        href="https://avrsoft.xyz/" class="t-link t-link--canvas">ARSoft</a> 2024</p>
+            </div>
+        </div>
+        <div class="doc__body">
+            <div id="introduction" class="section--sm section--first">
+                <div class="list">
+                    <div class="doc-head">
+                        <div class="doc-head__content">
+                            <h5 class="doc-head__title">
+                                ArFund
+                            </h5>
+                            <span class="doc-head__sub-title">
+                                ArFund - Crowdfunding Platform
+                            </span>
+                        </div>
+                    </div>
+                    <div class="doc-body">
+                        <ul class="list" style="--gap: 0.2rem">
+                            <li><strong>Created :</strong> 10-05-2024</li>
+                            <li>
+                                <strong>By :</strong>
+                                <a href="https://avrsoft.xyz/" class="t-link">ARSoft</a>
+                            </li>
+                            <li><strong>Email :</strong> <a class="t-link"
+                                    href="mailto:arsoft@gmail.com">arsoft@gmail.com</a></li>
+                        </ul>
+                        <p class="mt-4 lg-text">
+                            ArFund is an incredible platform where people from all around the globe come together to make a positive impact on the lives of homeless children, women, and those in need. ArFund connects generous donors and companies with those seeking help, providing the funding, tools, training, and support necessary to improve their communities.
+                        </p>
+                        <p class="mt-4 lg-text">
+                            Imagine a website that's not only packed with powerful features but also user-friendly and compatible with any device or operating system. That's ArFund! It’s designed to be a comprehensive crowdfunding platform, making it easy for anyone to create and manage their fundraising projects.
+                        </p>
+                        <blockquote class="blockquote text--accent">
+                            If necessary, we will continuously improve this software with new features and security
+                            updates. We strive to give all our customers the best user experience.
+                        </blockquote>
+                        <p class="mt-4 lg-text">
+                            Thanks for choosing <strong>ArFund</strong>. If you have any questions that aren't covered
+                            in this document,
+                            please contact us by email. We'll respond as quickly as we can. Thank you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="server-req" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content warning">
+                                    <h5 class="doc-head__title">Server Requirements</h5>
+                                    <span class="doc-head__sub-title d-block mb-4">
+                                        All server requirements are stated bellow
+                                    </span>
+                                    <div class="alert alert-primary" role="alert">
+                                        <i class="las la-lightbulb"></i>
+                                        To ensure the smooth functioning of our system, it's important to meet these
+                                        server prerequisites.
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-xl-4">
+                                    <div class="doc-body">
+                                        <ul class="list list--base" style="--gap: 0.5rem">
+                                            <li>
+                                                <h6>PHP Version and Database Requirements</h6>
+                                            </li>
+                                            <li>PHP Version 8.3.6</li>
+                                            <li>MySQL Version 8+ or MariaDB version 11+</li>
+                                            <li>
+                                                <h6>PHP Extensions</h6>
+                                            </li>
+                                            <li>PDO, pdo_mysql, OpenSSL, cURL, Mbstring, JSON</li>
+                                            <li>BCMath, Ctype, DOM, XML, GD, Fileinfo, PCRE, Tokenizer</li>
+                                            <li>
+                                                <h6>PHP Configuration</h6>
+                                            </li>
+                                            <li>allow_url_fopen()</li>
+                                            <li>file_get_contents()</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/server.png" alt="image" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="server-faq" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Server FAQ</h5>
+                                    <span class="doc-head__sub-title d-block mb-4">
+                                        Frequently Asked Questions About Server
+                                    </span>
+                                    <div class="alert alert-warning" role="alert">
+                                        <i class="las la-lightbulb"></i>
+                                        Discover quick solutions and gain a better understanding of our ArFund service
+                                        through commonly asked questions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row mt-4">
+                                <div class="col-md-6 mb-3">
+                                    <div class="faq-body">
+                                        <p class="mb-2 fw-bold text--canvas">
+                                            Will I Require a VPS or Dedicated Server to Operate This System?
+                                        </p>
+                                        <p class="m-0">
+                                            No, you won't. Our system is compatible with shared hosting plans, ensuring
+                                            smooth operation. However, if your website experiences a surge in traffic,
+                                            you may need to consider upgrading your hosting plan. Rest assured, our code
+                                            is optimized for efficient performance.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="faq-body">
+                                        <p class="mb-2 fw-bold text--canvas">
+                                            Which hosting provider is recommended for this? Any suggestions?
+                                        </p>
+                                        <p class="m-0">
+                                            You can opt for any hosting provider offering cPanel-based hosting. While
+                                            cPanel isn't mandatory, we suggest choosing a hosting service with cPanel
+                                            for ease of use.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="faq-body">
+                                        <p class="mb-2 fw-bold text--canvas">
+                                            What if I don't have cPanel?
+                                        </p>
+                                        <p class="m-0">
+                                            No need to fret! Our system is compatible with any control panel. However,
+                                            we recommend cPanel-based hosting for easier management. Additionally, our
+                                            free support is provided exclusively for cPanel-based hosting.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="faq-body">
+                                        <p class="mb-2 fw-bold text--canvas">
+                                            Do you offer hosting services?
+                                        </p>
+                                        <p class="m-0">
+                                            No, we don't provide hosting services. However, we recommend checking out
+                                            hosting providers like Bluehost (<a href="https://www.bluehost.com/"
+                                                target="_blank">www.bluehost.com</a>), Hostinger
+                                            (<a href="https://www.hostinger.com/" target="_blank">www.hostinger.com</a>)
+                                            or Namecheap
+                                            (<a href="https://www.namecheap.com/" target="_blank">www.namecheap.com</a>)
+                                            for reliable
+                                            hosting solutions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="installation" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Installation</h5>
+                                    <span class="doc-head__sub-title">
+                                        Application Installation Process
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-xl-12">
+                                    <div class="doc-body">
+                                        <p class="lead">
+                                            Installing our Laravel ArFund project is simple. You can set it up on your
+                                            cPanel with ease, following the default straightforward process. No coding
+                                            knowledge is needed; just a few easy steps, and you're ready to go. We've
+                                            designed the installation process to be seamless and user-friendly.
+                                        </p>
+                                        <p class="xl-text fw-md">Steps to Set Up:</p>
+                                        <ul class="list list--base">
+                                            <li>
+                                                <h6>1. Upload the Project Files</h6>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Simply upload the entire downloaded file to your server after purchasing.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>2. Extract the Files</h6>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Extract or unzip the file. Then, move all the files from
+                                                    the
+                                                    <code>Files</code> folder into your desired installation directory.
+                                                    Be sure to
+                                                    include both the <code>index.php</code> and <code>.htaccess</code>
+                                                    files during this process.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>3. Import the Database</h6>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Go to your hosting control panel, navigate to the
+                                                    database section, and create a new MySQL database.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Navigate to the database you created for your project.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Look for the "Import" option in phpMyAdmin and click on it. Then,
+                                                    click on the "Choose File" button to select the SQL file you
+                                                    received.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Once you've selected the SQL file, click on the "Go" or "Import"
+                                                    button to execute the import process. Depending on the size of the
+                                                    SQL file, this may take some time.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    After the import process is complete, you should see a success
+                                                    message confirming that the SQL file has been imported successfully
+                                                    into your database.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>4. Configure the .env File</h6>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Open the .env (<code>base/.env</code>) file and update the following
+                                                    lines with your database
+                                                    credentials
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <img src="assets/images/db.png" alt="image" class="img-fluid" />
+                                            </li>
+                                            <li>
+                                                <h6>5. System is ready now</h6>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    Now please browse http://<code>your-site-url</code>. Your system
+                                                    should be ready to use.
+                                                </p>
+                                            </li>
+                                        </ul>
+
+                                        <p class="xl-text mt-4">
+                                            If you're still having trouble installing the system, please reach out to
+                                            us. We offer free installation for cPanel-based hosting.
+                                        </p>
+                                        <p class="xl-text fw-md mb-2">Admin Login:</p>
+                                        <ul class="list mb-4" style="--gap: 0.2rem">
+                                            <li>
+                                                <span class="d-block">
+                                                    <strong>Login URL: </strong>
+                                                    http://<code>your-site-url</code>/admin
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <strong>Username :</strong> admin
+                                            </li>
+                                            <li>
+                                                <strong>Password :</strong> admin
+                                            </li>
+                                            <li>
+                                                <span><strong class="text--danger">NOTE:</strong> You can change your password at any time.</span>
+                                            </li>
+                                        </ul>
+                                        <p class="xl-text fw-md mb-2">User Login:</p>
+                                        <ul class="list mb-4" style="--gap: 0.2rem">
+                                            <li>
+                                                <span class="d-block">
+                                                    <strong>Login URL: </strong>
+                                                    http://<code>your-site-url</code>/user/login
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <strong>Username :</strong> [as_admin_set_at_creation]
+                                            </li>
+                                            <li>
+                                                <strong>Password :</strong> [as_admin_set_at_creation]
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="folder" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Folder Structure</h5>
+                                    <span class="doc-head__sub-title">
+                                        Software Folder Details
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="doc-body">
+                                <p class="lead">
+                                    After installation, you'll find two folders and two files in your main directory.
+                                </p>
+                                <ul class="list" style="--gap: 0.3rem">
+                                    <li>
+                                        <span class="list list--row align-items-center">
+                                            <span class="xl-text lh-1">
+                                                <i class="fas fa-folder"></i>
+                                            </span>
+                                            <span class="lg-text d-inline-block">assets</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="list list--row align-items-center">
+                                            <span class="xl-text lh-1">
+                                                <i class="fas fa-folder"></i>
+                                            </span>
+                                            <span class="lg-text d-inline-block">base</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="list list--row align-items-center">
+                                            <span class="xl-text lh-1">
+                                                <i class="fas fa-file-code"></i>
+                                            </span>
+                                            <span class="lg-text d-inline-block">.htaccess</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="list list--row align-items-center">
+                                            <span class="xl-text lh-1">
+                                                <i class="fas fa-file-code"></i>
+                                            </span>
+                                            <span class="lg-text d-inline-block">index.php</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="list list--base mt-4">
+                                    <li>
+                                        <p class="m-0">
+                                            In the <strong>"assets" </strong> folder, you'll find all <strong>CSS, JS,
+                                                Images</strong> assets. If you
+                                            need to modify or update any CSS or JS files, you can find them here.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="m-0">
+                                            Inside the <strong>"base"</strong> folder, you'll find the core Laravel
+                                            files, and we maintain a complete MVC structure in this project.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="admin-dashboard" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Admin Dashboard</h5>
+                                    <span class="doc-head__sub-title"> Dashboard overview </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p>
+                                            You can easily use the new secure admin panel with a cool dashboard. By logging into your dashboard, you can see all the important information and processes. From there, you can manage all the basic details needed to keep the website running smoothly..
+                                        </p>
+                                        <p>
+                                            This dashboard shows you everything about your system, like users, deposits, withdrawals, and info about all campaigns. You can also compare different transactions by looking at the graphs. It's like having a big map that shows you everything happening in your system!
+                                        </p>
+                                        <p class="m-0 lead">
+                                            <strong class="text--danger">Note: </strong> You can handle everything directly from this
+                                            dashboard! No coding or database editing required.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/admin_dash.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="setting" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Site Settings</h5>
+                                    <span class="doc-head__sub-title">
+                                        Site Settings overview
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p class="lead">
+                                            You can configure the fundamental details of your website through the site
+                                            settings.
+                                        </p>
+                                        <ul class="list list--base" style="--gap: 0.5rem">
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Site Title:</strong> Name of your website.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Currency:</strong> Base currency of your website.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Currency Symbol:</strong> Symbol of the base currency of
+                                                    your website.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Timezone:</strong> Timezone of your system.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Date Format:</strong> Date format of your system.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Base Color:</strong> Base color of your website. This
+                                                    can be a light color.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/site_settings.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="system" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">System Configuration</h5>
+                                    <span class="doc-head__sub-title">
+                                        System Configurations overview
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p class="lead">
+                                            You can adjust the system settings of your website in the system
+                                            configurations.
+                                        </p>
+                                        <ul class="list list--base" style="--gap: 0.5rem">
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>User Registration :</strong> You can turn the sign-up feature on or off.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Force SSL :</strong> If you turn this on, it will make sure all traffic uses HTTPS.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Secure Password :</strong> If you turn this on, users must set a secure password when they sign up or change their password.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Agree Policy :</strong> If you turn this on, users must agree to the system policies during the sign-up process.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>KYC Verification :</strong> If you turn this on, users must submit their KYC details after signing up.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Email Verification :</strong> You can choose to turn the Email Verification system on or off.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Email Notification :</strong> You can decide whether to turn on or off the Email Notification system.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Mobile Verification :</strong> You can decide whether to turn on or off the Mobile Verification system.
+                                                </p>
+                                            </li>
+
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>SMS Notification :</strong> You can choose whether to turn on or off the SMS Notification system.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Language Option :</strong> If you turn off this module, the language option won't be visible on the system.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/configuration.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="extensions" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Plugins</h5>
+                                    <span class="doc-head__sub-title">
+                                        Plugins overview
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p class="lead">
+                                            Here's something special for you: Our admin panel comes loaded with all the
+                                            necessary plugins. You'll have total control over these plugins, allowing
+                                            you to customize them to your liking.
+                                        </p>
+                                        <ul class="list list--base" style="--gap: 0.5rem">
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Custom Captcha:</strong> This plugin additionally
+                                                    safeguards your system against robotic attacks. It's not a
+                                                    third-party plugin; rather, it's an internal component of our
+                                                    system.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Facebook Comment:</strong>
+                                                    The Facebook comment feature manages comments on our system's blogs.
+                                                    Enabling this option will display a Facebook comment box on the blog
+                                                    page. To obtain the credentials for Facebook comment, <a
+                                                        href="https://developers.facebook.com/" target="_blank">please
+                                                        click
+                                                        here.</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Google Analytics:</strong>
+                                                    This feature is employed to monitor your website visitors. Google
+                                                    Analytics is responsible for tracking the overview of your web page
+                                                    and visitors. To obtain the credentials for Google Analytics, <a
+                                                        href="https://analytics.google.com" target="_blank">please
+                                                        click here.</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Google Recaptcha 2:</strong> We utilize Google Recaptcha 2
+                                                    to safeguard your system from robotic
+                                                    requests. To obtain the credentials for Google Recaptcha 2, <a
+                                                        href="https://www.google.com/recaptcha/admin/create"
+                                                        target="_blank">please
+                                                        click here.</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Messenger :</strong>
+                                                    This feature allows users to communicate directly with you through Facebook Messenger. Enabling this option will display a Messenger chat box on your website. To set up Messenger integration, <a
+                                                        href="https://developers.facebook.com/" target="_blank">please
+                                                        click
+                                                        here.</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Tawk.to:</strong>
+                                                    Tawk.to is an external live chat platform. To activate this feature,
+                                                    simply provide the API key from <a href="https://www.tawk.to/"
+                                                        target="_blank">tawk.to</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/plugins.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="seo" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">SEO Configuration</h5>
+                                    <span class="doc-head__sub-title">
+                                        SEO Configuration overview
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p>
+
+                                            In today's digital landscape, SEO plays a crucial role in website success.
+                                            That's why we've included a user-friendly yet robust SEO manager tool in our
+                                            admin panel. With this tool, you can easily configure your SEO keywords,
+                                            meta tags, and OG image without any external assistance. Accessing SEO
+                                            settings is just a click away in your admin panel.
+                                        </p>
+
+                                        <ul class="list list--base" style="--gap: 0.5rem">
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>SEO Image:</strong> This image will appear whenever you
+                                                    share the site link on any platform.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Meta Keywords:</strong> Enter keywords here that are
+                                                    relevant to your site. This will improve your site's ranking on
+                                                    search engines.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Meta Description:</strong> This description will be
+                                                    displayed in search engine results. Including relevant descriptions
+                                                    will boost your website's ranking in search engines.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Social Title:</strong>
+                                                    This title will appear when you share the link on social media
+                                                    platforms.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="m-0">
+                                                    <strong>Social Description:</strong>
+                                                    When you share the link on social media, this description will
+                                                    appear below the title.
+                                                </p>
+                                            </li>
+                                        </ul>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/seo.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="language" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Language Setting</h5>
+                                    <span class="doc-head__sub-title">
+                                        An overview of the Built-In Language Setting is provided
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p>
+                                            Nowadays, many website owners want to make their websites available in
+                                            multiple languages so users can choose to view the site in their preferred
+                                            language. However, most software providers don't offer this feature built-in
+                                            and charge high fees for it. In our product, you can easily set multiple
+                                            languages without any extra cost using our unique language manager.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/lang.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="user-dashboard" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">User Dashboard</h5>
+                                    <span class="doc-head__sub-title">
+                                        User Dashboard overview
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid p-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p class="m-0">The User Dashboard is like a control center just for you! Here, you can do lots of important things with your account, like managing your campaigns, checking lists of donations you've made and received, withdrawing funds, and even using extra features like two-factor authentication and support tickets. It's your place to take charge of everything related to your account! </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="doc-body--alt t-center">
+                                        <img src="assets/images/user-dashboard.png" alt="image" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="support" class="section--sm">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="doc-head">
+                                <div class="doc-head__content">
+                                    <h5 class="doc-head__title">Support</h5>
+                                    <span class="doc-head__sub-title">
+                                        Support information details
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="doc-body h-auto">
+                                        <p>
+                                            Thank you once again for choosing this Script. As mentioned earlier, I'm
+                                            here to assist you with any questions you may have regarding the Script.
+                                            While I can't guarantee a solution, I'll certainly do my utmost to help.
+                                            Don't hesitate to reach out to us through the Support Center if you need any
+                                            assistance or have inquiries.
+                                        </p>
+                                        <p class="m-0 xl-text">
+                                            Email Us:
+                                            <a href="https://arsoft.com/support" class="t-link">
+                                                https://arsoft.com/support
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="assets/js/lib/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap 5 js -->
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <!-- Simplebar Js  -->
+    <script src="assets/js/lib/simplebar.js"></script>
+    <!-- main js -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

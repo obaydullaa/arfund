@@ -1,0 +1,15 @@
+1. crowdfunding 
+2. charity
+3. donate
+4. fund
+5. fundraising
+6. online-fundraising
+7. crowdfunding-platform
+8. fundraising-campaigns
+9. startup-funding
+10. campaign
+11. nonprofit-fundraising
+12. donation-based-crowdfunding 
+13. donation
+14. funding
+15. laravel

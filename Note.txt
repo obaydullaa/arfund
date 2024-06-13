@@ -1,0 +1,34 @@
+1. Blog details social share fixed // Done
+2. User Details will be complete // Done
+3. Campaign Details information show // Done
+4. Footer important and useful link fixed  // Done
+5. User Dashboard campaign related completed  // Done
+6. Every table check pagination // Done
+7. Anonymous payment unser name email etc required this code is commented. // Done 
+8. Details page Search  // Done
+
+10. Extend Modal Design // Done
+11. check completed campaign status  // Done
+12. Check emptymessge  <p class="text-center"> {{ __($emptyMessage) }} <i class="fa fa-laugh"></i></p>  //Done
+13. All payment blade design fixed.  // Done
+ 
+14. campaign modal design and status and delete etc check...... // Done
+15. Notification cookie add in partials // Done
+16. Admin Menu Notification status // Done
+19. cookie blade add // Done
+20. Campaign stop and on // Done 
+22. Donar List show // Done
+24. Edit preview image show  // Done
+25. admin reject campaign not deleted // Done
+9. Details pdf not show // Done
+21. campaign date expired then not show in frontend // Done
+17. admin -> campaign -> index admin.users.kyc.details // Done
+18. kyc check all files // Done
+
+23. footer newsletter message send // Done
+24. 404 page design // Done
+
+
+db: user : obaydullaavronso_arfund
+db : pass:  @JYB}#bjeL5{
+db: name: obaydullaavronso_arfund
